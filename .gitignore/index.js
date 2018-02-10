@@ -24,6 +24,9 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "Comment voir  les different monde pour miner, nether...?")
         message.reply(" faits /warp in game 😜");})
+bot.on("message", message => {
+    if (message.content === "Quelle âge pour entrer dans le staff ?")
+        message.reply(" 14ans pour modo chat et 16 pour modo joueur");})
         
         
         
