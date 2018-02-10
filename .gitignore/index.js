@@ -28,19 +28,19 @@ bot.on("message", message => {
     if (message.content === "Quelle âge pour entrer dans le staff ?")
         message.reply(" 14ans pour modo chat et 16 pour modo joueur");})
 bot.on("message", message => {
-    if (message.content === "Qui est ton créateur ? ")
+    if (message.content === "Qui est ton créateur ?")
         message.reply(" C'est Hihax");})
 bot.on("message", message => {
-    if (message.content === "Quand ouvre le serveur ? ")
+    if (message.content === "Quand ouvre le serveur ?")
         message.reply(" Le 24 février à 15h 👍");})
 bot.on("message", message => {
-    if (message.content === "Combien d'abonnés pour être grade Youtubeur ? ")
+    if (message.content === "Combien d'abonnés pour être grade Youtubeur ?")
         message.reply(" Il en faut 500");})
 bot.on("message", message => {
     if (message.content === "Quel est le ts ?")
         message.reply(" ts.minozia.fr");})
 bot.on("message", message => {
-    if (message.content === "Quel est le site du serveur ? ")
+    if (message.content === "Quel est le site du serveur ?")
         message.reply(" https://minozia.fr");}) 
 
 
