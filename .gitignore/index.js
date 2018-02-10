@@ -10,10 +10,10 @@ bot.on("ready", () => {
 bot.login(process.env.TOKEN);
 
 bot.on("message", message => {
-    if (message.content === "modo")
-        message.reply(" c'est mon chef");})
+    if (message.content === "Ça va")
+        message.reply(" je vais toujours bien je suis un robot");})
 bot.on("message", message => {
-    if (message.content === "salut")
+    if (message.content === "Salut")
         message.reply(" bonjour");})
         
         
