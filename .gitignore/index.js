@@ -20,11 +20,10 @@ bot.on("message", message => {
         message.reply(" Environ couche 6");})
 bot.on("message", message => {
     if (message.content === "Qui est le fondateur ?")
-        message.reply(" Zerko est le fondateur");})
+        message.reply(" Zerko et Corld sont les fondateurs");})
 bot.on("message", message => {
     if (message.content === "Comment voir  les different monde pour miner, nether...?")
         message.reply(" faits /warp in game 😜");})
-        
         
         
         
