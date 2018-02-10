@@ -15,6 +15,15 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "Salut")
         message.reply(" bonjour");})
+bot.on("message", message => {
+    if (message.content === "Quelle couche pour miner ? ")
+        message.reply(" Environ couche 6");})
+bot.on("message", message => {
+    if (message.content === "Qui est le fondateur ? ")
+        message.reply(" Zerko est le fondateur");})
+bot.on("message", message => {
+    if (message.content === "Comment voir  les different monde pour miner, nether...?" )
+        message.reply(" faits /warp in game 😜");})
         
         
         
