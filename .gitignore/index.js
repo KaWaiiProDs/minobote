@@ -48,7 +48,7 @@ bot.on("message", message => {
         message.reply(" https://minozia.fr");}) 
 bot.on("message", message => {
     if (message.content === "Qui est le plus bg?")
-        message.reply(" Le plus beau est celui qui fût celui qui fût le plus beau, j'ai nommé Zerko");})
+        message.reply(" Le plus beau est celui qui fût celui qui fût le plus beau, j'ai nommé Zerko(c pas moi c fujeen)");})
 bot.on("message", message => {
     if (message.content === "Qui est là ?")
         message.reply(" MOIIIIII");}) 
