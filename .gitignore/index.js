@@ -52,3 +52,6 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "Qui est là ?")
         message.reply(" MOIIIIII");}) 
+bot.on("message", message => {
+    if (message.content === "Qui est ton générateur à Idée?")
+        message.reply(" c'est nox!");})
