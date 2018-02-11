@@ -45,6 +45,9 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "Qui est le plus bg?")
         message.reply(" Hihax bien sur");})
+bot.on("message", message => {
+    if (message.content === "Qui est là ? ")
+        message.reply(" MOIIIIII");})
 
 
         
