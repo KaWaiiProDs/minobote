@@ -51,15 +51,11 @@ bot.on("message", message => {
         message.reply(" Hihax bien sur");})
 bot.on("message", message => {
     if (message.content === "Qui est là ?")
-        message.reply(" MOIIIIII");})
-bot.on("message",message => {
-    if(message.content === 'Roll') {
-        const args = message.content.split(" ");
-        const num1 = 0;
-        const num2 = 100;
-        const numberGenerated = Math.floor(Math.random() * parseInt(num2) + num1);
-        console.log("Le bot a généré le chiffre: " + numberGenerated + " !");
-        message.reply("Le bot a généré le chiffre:  **" + numberGenerated");}} 
+        message.reply(" MOIIIIII");
+
+
+
+
 
 
         
