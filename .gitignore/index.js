@@ -59,9 +59,7 @@ bot.on("message",message => {
         const num2 = 100;
         const numberGenerated = Math.floor(Math.random() * parseInt(num2) + num1);
         console.log("Le bot a généré le chiffre: " + numberGenerated + " !");
-        message.reply("Le bot a généré le chiffre:  **" + numberGenerated");
-            message.delete();
-        }} 
+        message.reply("Le bot a généré le chiffre:  **" + numberGenerated");}} 
 
 
         
