@@ -48,10 +48,11 @@ bot.on("message", message => {
         message.reply(" https://minozia.fr");}) 
 bot.on("message", message => {
     if (message.content === "Qui est le plus bg?")
-        message.reply(" Hihax bien sur");})
+        message.reply(" Le plus beau est celui qui fût celui qui fût le plus beau, j'ai nommé Zerko");})
 bot.on("message", message => {
     if (message.content === "Qui est là ?")
         message.reply(" MOIIIIII");}) 
 bot.on("message", message => {
     if (message.content === "Qui est ton générateur à Idée?")
         message.reply(" c'est nox!");})
+
