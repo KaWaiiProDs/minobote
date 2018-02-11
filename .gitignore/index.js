@@ -42,6 +42,9 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "Quel est le site du serveur ?")
         message.reply(" https://minozia.fr");}) 
+bot.on("message", message => {
+    if (message.content === "Qui est le plus bg?")
+        message.reply(" Hihax bien sur");})
 
 
         
