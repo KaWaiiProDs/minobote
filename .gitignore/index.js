@@ -51,4 +51,8 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "Qui est ton générateur à Idée?")
         message.reply(" c'est nox!");})
+bot.on("message", message => {
+    if (message.content === "Comment voir la liste des bannnis?")
+        message.reply (" Tu va sur Google et marque ban liste Minozia");})
+
 
