@@ -2,12 +2,8 @@ const Discord = require ("discord.js");
 
 var bot = new Discord.Client ();
 
-function generateHex() {
-    return "#" + Math.floor(Math.random() * 16777215).toString(16);
-}
-
 bot.on("ready", () => {
-    bot.user.setGame("Manger");
+    bot.user.setGame("La v3 😛😜😝");
     console.log("bot connected");
 });
 
