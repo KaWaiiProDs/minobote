@@ -51,4 +51,7 @@ bot.on("message", message => {
 bot.on("message", message => {
     if (message.content === "Qui est ton générateur à Idée?")
         message.reply(" c'est nox!");})
+bot.on("message", message => {
+    if (message.content === "Qui est le plus grand Youtubeur du serveur?")
+        message.reply(" C'est Okila !");})
 
